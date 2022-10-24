@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2A302D;
   }
 
+  #top {
+    display: flex;
+    /*Border for debugging*/
+    /*border: 2px black solid;*/
+    /*Take up whole width of screen*/
+    width: 100vw; /*"viewport width", width of whole screen*/
+  }
+
+  #top-logo {
+    /*center the logo*/
+    margin: auto; 
+  }
+
+  #top-logo img{
+    width: 210px;
+    height: 210px;
+  }
   
