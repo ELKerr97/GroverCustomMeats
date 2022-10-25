@@ -7,7 +7,7 @@
 
   @font-face {
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
   }
 
   #top {
@@ -36,17 +36,39 @@
     line-height: 25px;
   }
 
-
   a {
     color: white !important;
   }
 
-  .nav-pills .nav-link {
+.nav-link {
+    Font-family: 'Montserrat';
+    /*border: 2px black solid;*/
     border-radius: 1.5rem !important;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.active {
+    color:  #2A302D !important;
+    background-color: white !important;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.6);
+}
+
+#home-banner {
+  position: relative;
+  padding-top: 20px;
+  overflow: hidden;
+  display: flex;
+  max-height: 450px;
+  align-items: center;
+}
+
+
+
+#home-banner img {
+  width: 100%;
+  
 }
 
 
