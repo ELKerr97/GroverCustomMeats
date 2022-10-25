@@ -5,6 +5,11 @@
     background-color: #2A302D;
   }
 
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+
   #top {
     display: flex;
     /*Border for debugging*/
@@ -22,4 +27,27 @@
     width: 210px;
     height: 210px;
   }
+
+  #nav {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+
+  a {
+    color: white !important;
+  }
+
+  .nav-pills .nav-link {
+    border-radius: 1.5rem !important;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
   
