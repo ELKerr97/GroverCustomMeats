@@ -114,4 +114,36 @@
   transform: scale(1.05);
   cursor: pointer;
 }
+
+#our-services h1{
+
+  font-family: 'Montserrat';
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: none;
+}
+
+.service {
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  min-width: 400px;
+  width: 100%;
+  height: 300px;
+  margin: 30px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.6);
+}
+
+.service h3{
+  text-align: center;
+  font-family: 'Montserrat';
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 45%;
+}
   
