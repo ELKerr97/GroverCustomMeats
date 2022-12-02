@@ -158,6 +158,12 @@
   max-width: 550px !important;
 }
 
+@media (max-width: 400px){
+  .col {
+    min-width: 350px !important;
+  }
+}
+
 .service img {
   position: absolute;
   filter: brightness(45%);
